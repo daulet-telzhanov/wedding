@@ -1,5 +1,5 @@
 .avatar {
-    height: 50vh;
+    height: 60vh;
     border-radius: 0 0 80% 80%;
     background: black;
     margin-bottom: 3vh;
@@ -61,5 +61,5 @@
 
 .form {
     padding: 0 20px;
-    margin-bottom: 400px;
+    margin-bottom: 200px;
 }
