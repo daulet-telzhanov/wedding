@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/uzatu/static/css/main.6fae59c2.css",
-    "main.js": "/uzatu/static/js/main.edd71a90.js",
+    "main.js": "/uzatu/static/js/main.06b67b86.js",
     "static/js/787.aa012124.chunk.js": "/uzatu/static/js/787.aa012124.chunk.js",
-    "static/media/avatar.jpg": "/uzatu/static/media/avatar.433653628bb3a6a917de.jpg",
+    "static/media/avatar.png": "/uzatu/static/media/avatar.5eceb9550825cc44fc66.png",
     "static/media/RUS ModernH-EcoLight.ttf": "/uzatu/static/media/RUS ModernH-EcoLight.5376bedb3c7bfb6ca165.ttf",
     "static/media/Ante.ttf": "/uzatu/static/media/Ante.ec6d6135bd25557deccc.ttf",
     "static/media/Vivaldi script Regular.ttf": "/uzatu/static/media/Vivaldi script Regular.bbb16f964f9248e1f806.ttf",
@@ -13,11 +13,11 @@
     "static/media/gis.png": "/uzatu/static/media/gis.c0acc24239b068c77664.png",
     "index.html": "/uzatu/index.html",
     "main.6fae59c2.css.map": "/uzatu/static/css/main.6fae59c2.css.map",
-    "main.edd71a90.js.map": "/uzatu/static/js/main.edd71a90.js.map",
+    "main.06b67b86.js.map": "/uzatu/static/js/main.06b67b86.js.map",
     "787.aa012124.chunk.js.map": "/uzatu/static/js/787.aa012124.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fae59c2.css",
-    "static/js/main.edd71a90.js"
+    "static/js/main.06b67b86.js"
   ]
 }
