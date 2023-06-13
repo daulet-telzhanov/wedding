@@ -1,0 +1,65 @@
+.avatar {
+    height: 50vh;
+    border-radius: 0 0 80% 80%;
+    background: black;
+    margin-bottom: 3vh;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 400px) {
+    .avatar {
+        height: 40vh;
+        border-radius: 0 0 80% 80%;
+        background: black;
+        margin-bottom: 3vh;
+        overflow: hidden;
+    }
+  }
+
+.avatar_img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center -40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.time_wrapper {
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 4vh;
+}
+  
+.time {
+    font-size: 20px;
+}
+  
+.text_wrapper {
+    font-family: Vivaldi, serif;
+    font-size: 2rem;
+    color: #27374D;
+    font-weight: 400;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vh;
+}
+
+.links div {
+    width: 50px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.img_link {
+    width: 100%;
+}
+
+.form {
+    padding: 0 20px;
+    margin-bottom: 400px;
+}

@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Vivaldi';
+  src: local('Vivaldi'), url(./fonts/Vivaldi\ script\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Ante';
+  src: local('Ante'), url(./fonts/Ante.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Alumna';
+  src: local('Alumna'), url(./fonts/ALS_Alumna.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Klementina';
+  src: local('Klementina'), url(./fonts/RUS\ ModernH-EcoLight.ttf) format('truetype');
+}
+

@@ -1,0 +1,23 @@
+.main_container {
+    width: 100%;
+    max-width: 1040px;
+    background-color: #fff5ee;
+}
+
+.aibala {
+    margin-top: 4vh;
+    font-family: Vivaldi, serif;
+    font-size: 4rem;
+    color: #e29578;
+    line-height: 1.5;
+    font-weight: 1000;
+}
+
+.border_wrapper {
+    margin-bottom: 2rem;
+}
+
+.border {
+    width: 90%;
+    max-width: 350px;
+}
