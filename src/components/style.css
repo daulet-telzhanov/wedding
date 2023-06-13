@@ -6,9 +6,9 @@
     overflow: hidden;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     .avatar {
-        height: 40vh;
+        height: 50vh;
         border-radius: 0 0 80% 80%;
         background: black;
         margin-bottom: 3vh;
@@ -16,12 +16,40 @@
     }
   }
 
+@media screen and (max-width: 370px) {
+    .avatar {
+        height: 40vh;
+        border-radius: 0 0 80% 80%;
+        background: black;
+        margin-bottom: 3vh;
+        overflow: hidden;
+    }
+}
+
 .avatar_img {
     width: 100%;
     object-fit: cover;
     object-position: center -40px;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 310px) {
+    .avatar {
+        height: 40vh;
+        border-radius: 0 0 80% 80%;
+        background: black;
+        margin-bottom: 3vh;
+        overflow: hidden;
+    }
+
+    .avatar_img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center 0px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 }
 
 .time_wrapper {
