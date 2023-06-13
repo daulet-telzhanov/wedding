@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/uzatu/static/css/main.1cfdeb8a.css",
+    "main.css": "/uzatu/static/css/main.993bc961.css",
     "main.js": "/uzatu/static/js/main.edd71a90.js",
     "static/js/787.aa012124.chunk.js": "/uzatu/static/js/787.aa012124.chunk.js",
     "static/media/avatar.jpg": "/uzatu/static/media/avatar.433653628bb3a6a917de.jpg",
@@ -12,12 +12,12 @@
     "static/media/insta.png": "/uzatu/static/media/insta.1198cc94beda73db3c7a.png",
     "static/media/gis.png": "/uzatu/static/media/gis.c0acc24239b068c77664.png",
     "index.html": "/uzatu/index.html",
-    "main.1cfdeb8a.css.map": "/uzatu/static/css/main.1cfdeb8a.css.map",
+    "main.993bc961.css.map": "/uzatu/static/css/main.993bc961.css.map",
     "main.edd71a90.js.map": "/uzatu/static/js/main.edd71a90.js.map",
     "787.aa012124.chunk.js.map": "/uzatu/static/js/787.aa012124.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cfdeb8a.css",
+    "static/css/main.993bc961.css",
     "static/js/main.edd71a90.js"
   ]
 }
