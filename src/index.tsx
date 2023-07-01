@@ -3,26 +3,27 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { HashRouter, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
 import Wedding from './Wedding';
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "/wedding",
-    element: <Wedding />
-  }
-]);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <HashRouter>
+      <Routes location={window.location.href.includes('wedding') ? '/wedding' : '/'}>
+        <Route 
+          path='/'
+          Component={App}
+        />
+
+        <Route
+          path='/wedding'
+          Component={Wedding}
+        />
+      </Routes>
+    </HashRouter>
   </React.StrictMode>
 );
 
