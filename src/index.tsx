@@ -8,11 +8,11 @@ import Wedding from './Wedding';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/wedding",
     element: <App />,
   },
   {
-    path: "/wedding",
+    path: "/",
     element: <Wedding />
   }
 ]);
