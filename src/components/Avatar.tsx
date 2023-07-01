@@ -1,11 +1,14 @@
 import React from 'react';
 import './style.css';
-import avatar_img from '../imgs/avatar.png';
 
-const Avatar = () => {
+export type AvatarProps = {
+    img: string
+}
+
+const Avatar = ({img}:AvatarProps) => {
 
     return <div className='avatar'>
-        <img className='avatar_img' src={avatar_img} alt="avatar"/>
+        <img className='avatar_img' src={img} alt="avatar"/>
     </div>
 };
 

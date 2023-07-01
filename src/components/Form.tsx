@@ -3,7 +3,11 @@ import React from 'react';
 import Text from '../components/Text';
 import { toast } from 'react-hot-toast';
 
-const Form = () => {
+type FormProps = {
+    fetchUrl: string
+}
+
+const Form = ({fetchUrl}:FormProps) => {
     const [willGo, setWillGo] = React.useState('');
     const [guests, setGuests] = React.useState(['']);
     
@@ -19,7 +23,7 @@ const Form = () => {
         setGuests(['']);
         toast.success('Жауабыңызға рақмет!');
 
-        fetch("https://api.apispreadsheets.com/data/KUEVGV7kHXDmlEWO/", {
+        fetch(fetchUrl, {
 	        method: "POST",
 	        body: JSON.stringify({"data": guestObj}),
         })

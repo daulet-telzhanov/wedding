@@ -1,68 +1,88 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Avatar from '../components/Avatar';
 import fl_border from '../imgs/border.png';
 import Text from '../components/Text';
 import Time from '../components/Time';
 import Links from '../components/Links';
 import Form from '../components/Form';
+
 import './style.css';
+import { ColorHex } from 'react-countdown-circle-timer';
 
-const MainPage = () => {
+export type MainPageProps = {
+    img: string,
+    texts: ReactNode[],
+    instaLink: string;
+    gisLink: string;
+    timestamp: number;
+    fetchUrl: string;
+    bgColor: string;
+    mainTxtColor: ColorHex;
+    borderImg: string;
+}
 
-    return <div className='main_container'>
-        <Avatar/>
+const MainPage = ({img, texts, instaLink, gisLink, timestamp, fetchUrl, bgColor, mainTxtColor, borderImg}:MainPageProps) => {
+
+    return <div className='main_container' style={{backgroundColor: bgColor}}>
+        <Avatar img={img}/>
 
         <Text mb={3}>
-            Құрметті ағайын-туыс, <br/> құда-жекжат, дос-жаран!        
+            {texts[0]}
         </Text>
 
         <Text fontSize={1.7}>
-            Сіздерді аяулы қызымыз    
+            {texts[1]}
         </Text>
 
-        <Text className='aibala'>
-            Айбаланың
+        <Text className='aibala' color={mainTxtColor}>
+            {texts[2]}
         </Text>
 
         <div className='border_wrapper'>
-            <img src={fl_border} alt="border" className='border'/>
+            <img src={borderImg} alt="border" className='border'/>
         </div>
 
         <Text mb={3.5} fontSize={1.7}>
-            Ұзату тойына арналған <br/>
-            ақ дастарханымыздың қадірлі <br/>
-            қонағы болуға шақырамыз!
+            {texts[3]}
         </Text>
 
-        <Text mb={3} color='#e29578' wh={900}>
-            22 шілде, 2023 | 18:00
+        <Text mb={3} color={mainTxtColor} wh={900}>
+            {texts[4]}
         </Text>
 
         <Text>
-            Altyn Banquet Hall
+            {texts[5]}
         </Text>
 
         <Text fontSize={1.5}>
-            ​Алматы қаласы, Ашимова көшесі 241
+            {texts[6]}
         </Text>
 
-        <Links/>
+        <Links
+          gisLink={gisLink}
+          instaLink={instaLink}
+        />
 
         <Text fontSize={1.5}>
-            Той йелері:
+            {texts[7]}
         </Text>
 
         <Text fontSize={1.7} mb={2.5}>
-            Серікбай - Жанна
+            {texts[8]}
         </Text>
 
         <Text fontSize={1.5} mb={1}>
-            Тойдың басталуына:
+            {texts[9]}
         </Text>
 
-        <Time/>
+        <Time
+            color={mainTxtColor}
+            timestamp={timestamp}
+        />
 
-        <Form/>
+        <Form
+            fetchUrl={fetchUrl}
+        />
     </div>
 };
 
