@@ -17,8 +17,8 @@ const Wedding = () => {
         
         <MainPage
           borderImg={border_img}
-          bgColor='#F5F5F5'
-          mainTxtColor='#3F2305'
+          bgColor='#F1F3F4'
+          mainTxtColor='#2A7886'
           img={avatar_img}
           instaLink='https://www.instagram.com/skyhallalmaty/'
           gisLink='https://go.2gis.com/2wjea'

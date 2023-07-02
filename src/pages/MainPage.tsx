@@ -63,7 +63,7 @@ const MainPage = ({img, texts, instaLink, gisLink, timestamp, fetchUrl, bgColor,
           instaLink={instaLink}
         />
 
-        <Text fontSize={1.5}>
+        <Text fontSize={2.2}>
             {texts[7]}
         </Text>
 
